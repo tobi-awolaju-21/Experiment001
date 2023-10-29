@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+    <div class="control">
+        <button id="add-button">Add Model</button>
+        <button id="run-button">Run simulation</button> <!-- Changed id to 'run-button' -->
+        <button id="clear-button">Clear lab</button> <!-- Changed id to 'clear-button' -->
+
+
+
+        <div id="modal" class="modal">
+            <div class="modal-content">
+                <span class="close" id="close">&times;</span>
+                <p id="modal-text">This is the modal content.</p>
+                <input type="text" id="input-box" placeholder="Type something">
+            </div>
+        </div>
+       
+
+
+        <script src="./main.js"></script> <!-- Moved the script tag to the end of the body -->
+    </div>
+  
+    <div id="circle-container"></div>
+   
+
+    
+</body>
+</html>
